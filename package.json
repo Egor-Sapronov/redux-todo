@@ -1,0 +1,49 @@
+{
+  "name": "redux-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Egor-Sapronov/redux-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Egor-Sapronov/redux-todo/issues"
+  },
+  "homepage": "https://github.com/Egor-Sapronov/redux-todo#readme",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "babel-jest": "^5.3.0",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.19.0",
+    "express": "^4.13.3",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "jade": "^1.11.0",
+    "jest-cli": "^0.5.8",
+    "material-design-lite": "^1.0.5",
+    "react": "^0.13.3",
+    "react-redux": "^3.0.1",
+    "redux": "^3.0.2",
+    "style-loader": "^0.12.4",
+    "webpack": "^1.12.2"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": [
+      "es6",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "es6"
+    ]
+  }
+}
