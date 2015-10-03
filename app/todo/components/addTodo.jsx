@@ -12,6 +12,7 @@ export default class AddTodo extends Component {
           <button 
             className='mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored'
             onClick={(e) => this.handleClick(e)}
+            ref='button'
             >
             <i className='material-icons'>add</i>
           </button>

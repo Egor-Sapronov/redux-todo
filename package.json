@@ -36,12 +36,19 @@
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/redux",
+      "<rootDir>/node_modules/react-redux"
+    ],
     "testFileExtensions": [
       "es6",
-      "js"
+      "js",
+      "jsx"
     ],
     "moduleFileExtensions": [
       "js",
+      "jsx",
       "json",
       "es6"
     ]
